@@ -10,12 +10,6 @@
     android:orientation="vertical"
     tools:context=".Search">
 
-    <TextView
-        android:id="@+id/user_details"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="right|top"/>
-
     <EditText
         android:id="@+id/etSearch"
         android:layout_width="match_parent"
@@ -24,14 +18,6 @@
         android:imeOptions="actionSearch"
         android:inputType="text"
         android:maxLines="1" />
-
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="154dp"
-        android:text="LOGOUT" />
 
     <Button
         android:id="@+id/btnSearch"
@@ -51,31 +37,31 @@
         android:textColor="@android:color/black"
         android:textSize="18sp" />
 
-<!--    &lt;!&ndash; Category 1 &ndash;&gt;-->
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="horizontal"-->
-<!--        android:padding="16dp">-->
+    <!-- Category 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
 
-<!--    </LinearLayout>-->
+    </LinearLayout>
 
-<!--    &lt;!&ndash; Category 2 &ndash;&gt;-->
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="horizontal"-->
-<!--        android:padding="16dp">-->
-<!--    </LinearLayout>-->
+    <!-- Category 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+    </LinearLayout>
 
-<!--    &lt;!&ndash; Category 3 &ndash;&gt;-->
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="horizontal"-->
-<!--        android:padding="16dp">-->
+    <!-- Category 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
 
-<!--    </LinearLayout>-->
+    </LinearLayout>
 
     <ImageView
         android:layout_width="155dp"
@@ -100,11 +86,13 @@
         android:layout_marginTop="29dp"
         android:layout_marginEnd="49dp"
         android:layout_marginBottom="290dp"
+        android:layout_toEndOf="@+id/null"
         android:src="@drawable/direct_flight" />
 
     <ImageView
         android:layout_width="145dp"
         android:layout_height="110dp"
+        android:layout_below="@+id/null"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -118,18 +106,21 @@
         android:id="@+id/imageView4"
         android:layout_width="156dp"
         android:layout_height="121dp"
+        android:layout_below="@+id/null"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-145dp"
         android:layout_marginTop="-281dp"
         android:layout_marginEnd="23dp"
         android:layout_marginBottom="148dp"
+        android:layout_toEndOf="@+id/null"
         android:src="@drawable/sedan" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="132dp"
         android:layout_height="108dp"
+        android:layout_below="@+id/null"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -152,7 +143,4 @@
         android:layout_marginEnd="42dp"
         android:layout_marginBottom="31dp"
         android:src="@drawable/tour_guide" />
-
-
-
 </RelativeLayout>

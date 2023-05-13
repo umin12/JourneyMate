@@ -102,7 +102,7 @@
         android:id="@+id/tvActivity3Description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RM100/hour"
+        android:text="RM100/i hour"
         android:textSize="16sp"
         android:paddingStart="16dp"
         android:paddingTop="4dp"

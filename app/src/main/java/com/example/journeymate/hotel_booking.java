@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class hotel_booking extends AppCompatActivity {
+public class activity_hotel_booking extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
