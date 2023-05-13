@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Search" type="id" />
+    <item name="RecommendedPlace" type="id" />
+    <item name="FlightBooking" type="id" />
+    <item name="HotelBooking" type="id" />
+    <item name="Transport" type="id" />
+    <item name="Traveling" type="id" />
+    <item name="Review" type="id" />
+    <item name="logout" type="id" />
+    <item name="user_details" type="id" />
+</resources>
