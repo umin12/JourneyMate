@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "823035266272",
+    "project_id": "journeymate-f021b",
+    "storage_bucket": "journeymate-f021b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823035266272:android:6d0a85ffb8ee0f6be27c85",
+        "android_client_info": {
+          "package_name": "com.example.journeymate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823035266272-263jl1n9n8p3livs7ak82b1qpsvldh9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6PN_HpgxVDnJq11gqU_70Il2jZiW_F20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823035266272-263jl1n9n8p3livs7ak82b1qpsvldh9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

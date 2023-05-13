@@ -1,0 +1,111 @@
+<!-- recommended_activity_page.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recommended Activities"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivActivity1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/scuba"
+            android:scaleType="centerCrop" /> <!-- Reference to the image resource for activity1, in this case activity1_image.png -->
+
+        <ImageView
+            android:id="@+id/ivActivity2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/para"
+            android:scaleType="centerCrop" /> <!-- Reference to the image resource for activity2, in this case activity2_image.png -->
+
+        <ImageView
+            android:id="@+id/ivActivity3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/atv"
+            android:scaleType="centerCrop" /> <!-- Reference to the image resource for activity3, in this case activity3_image.png -->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvActivity1Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scuba Diving at Pulau Tioman"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvActivity1Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RM150/day"
+        android:textSize="16sp"
+        android:paddingStart="16dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvActivity2Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paragliding at Kuala Kubu Bharu"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvActivity2Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RM250/30 minutes"
+        android:textSize="16sp"
+        android:paddingStart="16dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvActivity3Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ATV Ride at Kemanseh"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvActivity3Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RM100/hour"
+        android:textSize="16sp"
+        android:paddingStart="16dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp" />
+</LinearLayout>

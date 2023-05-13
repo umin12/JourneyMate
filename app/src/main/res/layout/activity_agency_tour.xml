@@ -1,0 +1,73 @@
+<!-- tour_agency_and_solo_backpackers.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivTourAgencyImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/guide" /> <!-- Reference to the image resource for tour agency, in this case tour_agency_image.png -->
+
+    <TextView
+        android:id="@+id/tvTourAgencyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel Agency"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvTourAgencyDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Travel Agency."
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Other views for tour agency details, tour packages, etc. -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" /> <!-- Separator line -->
+
+    <ImageView
+        android:id="@+id/ivSoloBackpackersImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/social" /> <!-- Reference to the image resource for solo backpackers, in this case solo_backpackers_image.png -->
+
+    <TextView
+        android:id="@+id/tvSoloBackpackersTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solo Backpackers"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/tvSoloBackpackersDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is solo backpackers section"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Other views for solo backpackers details, travel tips, etc. -->
+
+</LinearLayout>

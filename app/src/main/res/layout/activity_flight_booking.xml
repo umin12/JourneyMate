@@ -1,0 +1,71 @@
+<!-- flight_booking_page.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivBanner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/banner" /> <!-- Reference to the image resource, in this case flight_banner.png -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivBanner"
+        android:layout_marginTop="162dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Add your flight booking page UI components here, such as EditText, TextView, Button, etc. -->
+        <!-- Flight company logo ImageView -->
+        <ImageView
+            android:id="@+id/airasialogo"
+            android:layout_width="112dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:src="@drawable/airasia" /> <!-- Replace with actual flight company logo image resource -->
+
+        <!-- Flight company name TextView -->
+
+        <TextView
+            android:id="@+id/nameflight"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:text="Air Asia" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivBanner"
+        android:layout_marginBottom="130dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivFlightCompanyLogo"
+            android:layout_width="112dp"
+            android:layout_height="95dp"
+            android:src="@drawable/mas"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvFlightCompanyName"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Malaysia Airlines"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <!-- Add your flight booking page UI components here, such as EditText, TextView, Button, etc. -->
+
+    <!-- Replace with actual flight company logo image resource -->
+
+    <!-- Flight company name TextView -->
+
+</RelativeLayout>

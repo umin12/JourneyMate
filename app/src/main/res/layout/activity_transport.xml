@@ -1,0 +1,73 @@
+<!-- transportation_page.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivTransportationImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/car_banner" /> <!-- Reference to the image resource, in this case transportation_image.png -->
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="174dp"
+        android:layout_height="102dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/myvi" />
+
+    <TextView
+        android:id="@+id/tvTransportationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Perodua Myvi"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTransportationDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RM100/per hari"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="234dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/axia" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Perodua Axia"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RM90/per hari"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center"/>
+
+    <!-- Other views for transportation details, booking options, etc. -->
+
+</LinearLayout>

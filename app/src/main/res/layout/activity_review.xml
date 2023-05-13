@@ -1,0 +1,126 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reviews"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Review 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivReviewer1"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/man"
+                    android:scaleType="centerCrop" /> <!-- Reference to the image resource for reviewer1's avatar, in this case reviewer1_avatar.png -->
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/tvReviewer1Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Anon"
+                        android:textStyle="bold"
+                        android:textSize="18sp" />
+
+                    <RatingBar
+                        android:id="@+id/rbReviewer1Rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="0.5"
+                        android:rating="4.5" /> <!-- Set the initial rating for reviewer1 to 4.5 stars -->
+
+                    <TextView
+                        android:id="@+id/tvReviewer1Review"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Great experience! Loved the trip and the activities. Highly recommended."
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/ivReviewer2"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/woman"
+                    android:scaleType="centerCrop" /> <!-- Reference to the image resource for reviewer2's avatar, in this case reviewer2_avatar.png -->
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/tvReviewer2Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Girl"
+                        android:textStyle="bold"
+                        android:textSize="18sp" />
+
+                    <RatingBar
+                        android:id="@+id/rbReviewer2Rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="0.5"
+                        android:rating="4.5" /> <!-- Set the initial rating for reviewer1 to 4.5 stars -->
+
+                    <TextView
+                        android:id="@+id/tvReviewer2Review"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Great experience! Loved the trip and the activities. Highly recommended."
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
