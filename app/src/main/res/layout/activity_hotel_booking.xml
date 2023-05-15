@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".hotel_booking">
+    tools:context=".activity_hotel_booking">
 
 
     <GridLayout
@@ -29,13 +29,11 @@
             android:layout_margin="5dp">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-            </RelativeLayout>
+                android:layout_height="match_parent"
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/banner_hotel">
-            </ImageView>
+                android:src="@drawable/banner_hotel"
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -48,13 +46,11 @@
             android:layout_margin="5dp">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-            </RelativeLayout>
+                android:layout_height="match_parent"
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/glenmarie">
-            </ImageView>
+                android:src="@drawable/glenmarie"
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -75,7 +71,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Glenmarie Hotel And Golf Resort"
+                    android:text="Glenmarie Hotel & Golf Resort"
                     android:textSize="24sp"
                     android:textStyle="bold"
                     android:textColor="#333333"/>
@@ -94,4 +90,3 @@
 
     </GridLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>

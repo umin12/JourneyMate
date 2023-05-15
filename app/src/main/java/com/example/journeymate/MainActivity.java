@@ -48,10 +48,6 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
 
 
 
-
-
-
-
     public void showMenu(View v){
         PopupMenu popup = new PopupMenu(this, v);
         popup.setOnMenuItemClickListener(this) ;
@@ -83,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
 
             case R.id.HotelBooking:
                 Toast.makeText(this, "Hotel Booking clicked", Toast.LENGTH_SHORT).show();
-                intent = new Intent(MainActivity.this, hotel_booking.class);
+                intent = new Intent(MainActivity.this,activity_hotel_booking2.class);
                 startActivities(new Intent[]{intent});
                 return true;
 
